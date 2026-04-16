@@ -365,10 +365,14 @@ nav a:hover {
   }
 
   /* CATEGORÍAS */
-  .category {
-    min-width: 220px;
-    aspect-ratio: 16 / 9; /* mantiene forma siempre */
-  }
+.category {
+  min-width: 280px;
+  aspect-ratio: 16 / 9;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
   .category span {
     font-size: 16px;
