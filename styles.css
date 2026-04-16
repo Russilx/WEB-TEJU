@@ -473,6 +473,8 @@ nav a:hover {
 
 .arrow.right {
   right: 5px;
+  position: absolute;
+  right: 10px;
 }
 
 }
