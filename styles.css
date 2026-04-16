@@ -366,8 +366,8 @@ nav a:hover {
 
   /* CATEGORÍAS */
   .category {
-    min-width: 200px;
-    aspect-ratio: 3 / 4; /* mantiene forma siempre */
+    min-width: 220px;
+    aspect-ratio: 16 / 9; /* mantiene forma siempre */
   }
 
   .category span {
